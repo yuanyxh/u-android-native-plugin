@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">camera</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="placeholder">placeholder</string>
+    <string name="camera_close">Close Camera</string>
+    <string name="camera_toggle">Camera Toggle</string>
+    <string name="camera_focus">Camera Focus</string>
+    <string name="title_activity_photo_editor">PhotoEditorActivity</string>
+    <string name="editor_complete">完成</string>
+    <string name="editor_cut">editor_cut</string>
+    <string name="editor_text">editor_text</string>
+    <string name="editor_emoji">editor_emoji</string>
+    <string name="editor_graffiti">editor_graffiti</string>
+    <string name="editor_back">editor_back</string>
+    <string name="editor_retreat">撤销</string>
+    <string name="title_activity_photo_picker">PhotoPickerActivity</string>
+    <string name="photo_collect" />
+    <string name="photo_close" />
+    <string name="photo_picker_item">photo_picker_item</string>
+    <string name="editor_cancel">取消</string>
+    <string name="add_image_text">添加图片文本</string>
+    <string name="editor_redo">重做</string>
+</resources>

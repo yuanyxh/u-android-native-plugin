@@ -1,0 +1,18 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "CameraX",
+          "class": "com.yuanyxh.camera.CameraModule"
+        },
+        {
+          "type": "module",
+          "name": "NotifyModule",
+          "class": "com.yuanyxh.notify.NotifyModule"
+        }
+      ]
+    }
+  ]
+}

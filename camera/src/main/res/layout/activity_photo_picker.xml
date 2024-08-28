@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photo_picker"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:background="@color/transparent"
+    tools:context=".PhotoPickerActivity">
+    <LinearLayout
+        android:id="@+id/photo_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/transparent">
+        <RelativeLayout
+            android:id="@+id/photo_operator"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/radius_shallow_gray">
+            <LinearLayout
+                android:id="@+id/photo_collect_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="@drawable/photo_radius_gray"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/photo_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/photo_collect"
+                    android:src="@drawable/photo_collect"
+                    tools:ignore="InefficientWeight" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/photo_close_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="bottom"
+                android:background="@color/transparent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/photo_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/photo_close"
+                    android:src="@drawable/photo_close"
+                    tools:ignore="InefficientWeight" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/photo_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:fadingEdge="none"
+            android:background="@color/gray">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Toast" parent="@android:style/Animation.Toast">
+        <item name="android:windowEnterAnimation">@anim/notify_enter</item>
+        <item name="android:windowExitAnimation">@anim/notify_exit</item>
+    </style>
+</resources>
